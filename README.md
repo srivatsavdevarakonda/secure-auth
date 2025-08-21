@@ -93,7 +93,7 @@ secure-auth-project/
 python server.py
 ```
 
-Navigate to 👉 **[http://127.0.0.1:5001/](http://127.0.0.1:5001/)** in your browser.
+Navigate to 👉 **[http://127.0.0.1:5001/](https://secure-auth-wrdy.onrender.com)** in your browser.
 
 ---
 
@@ -121,9 +121,9 @@ Navigate to 👉 **[http://127.0.0.1:5001/](http://127.0.0.1:5001/)** in your br
 
 ## 👨‍💻 Author Info
 
-**Developed by:** (Your Name)
+**Developed by:** (SRIVATSAV D)
 📧 [devarakondasrivatsav@gmail.com](mailto:devarakondasrivatsav@gmail.com)
-🌐 [GitHub](https://github.com/your-username) | [LinkedIn](https://www.linkedin.com/in/your-link)
+🌐 [GitHub](https://github.com/srivatsavdevarakonda) | [LinkedIn](https://www.linkedin.com/in/d-srivatsav-2a7a90247/)
 
 ---
 
@@ -163,5 +163,3 @@ Open a **Pull Request** 🚀
 > Strong passwords + 2FA = safer digital life 🔐✨
 
 ---
-
-Do you want me to also prepare a **ready-to-use `requirements.txt`** for this project (Flask, pyotp, qrcode, Pillow, etc.) so you can plug & play?
