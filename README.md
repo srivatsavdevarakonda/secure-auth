@@ -93,7 +93,7 @@ SecureKit-project/
 python server.py
 ```
 
-Navigate to 👉 **[SecureKit-project](https://secure-auth-wrdy.onrender.com)** in your browser.
+Navigate to 👉 **[SecureKit-project]()** in your browser.
 
 ---
 
