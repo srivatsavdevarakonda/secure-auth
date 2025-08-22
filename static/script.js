@@ -87,7 +87,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const qrCodeImg = document.getElementById('qr-code-img');
     const secretKeyText = document.getElementById('secret-key');
     const messageArea = document.getElementById('message-area');
-    const API_URL = 'http://127.0.0.1:5001';
+    
+    // Dynamically set the API URL based on the hostname
+    const API_URL = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost'
+        ? 'http://127.0.0.1:5001'
+        : window.location.origin;
 
     otpInputs.forEach((input, index) => {
         input.addEventListener('input', () => {
@@ -127,6 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 showMessage(data.message || 'Failed to setup 2FA.', 'error');
             }
         } catch (error) {
+            console.error("Fetch Error:", error);
             showMessage('Could not connect to the server.', 'error');
         } finally {
             setButtonLoadingState(setupBtn, false);
