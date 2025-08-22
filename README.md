@@ -1,6 +1,6 @@
-# 🔐 Secure Auth Project: Password Analyzer & 2FA Demo
+# 🔐 SecureKit Project: Password Analyzer & 2FA Demo
 
-**Secure Auth Project** is a web-based demo of two essential security features: a **real-time Password Strength Analyzer** and a **Two-Factor Authentication (2FA) Demo** using Time-based One-Time Passwords (TOTP).
+**SecureKit Project** is a web-based demo of two essential security features: a **real-time Password Strength Analyzer** and a **Two-Factor Authentication (2FA) Demo** using Time-based One-Time Passwords (TOTP).
 
 Built with a **Flask backend** and a **modern frontend (HTML, Tailwind CSS, JavaScript)**, this project showcases best practices in authentication security.
 
@@ -39,7 +39,7 @@ Built with a **Flask backend** and a **modern frontend (HTML, Tailwind CSS, Java
 ## 📂 Project Structure
 
 ```
-secure-auth-project/
+SecureKit-project/
 │
 ├── server.py            # Flask backend
 ├── requirements.txt     # Dependencies
@@ -65,8 +65,8 @@ secure-auth-project/
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/your-username/secure-auth-project.git
-   cd secure-auth-project
+   git clone https://github.com/your-username/SecureKit-project.git
+   cd SecureKit-project
    ```
 
 2. **Create & activate a virtual environment**
@@ -93,7 +93,7 @@ secure-auth-project/
 python server.py
 ```
 
-Navigate to 👉 **[secure-auth-project](https://secure-auth-wrdy.onrender.com)** in your browser.
+Navigate to 👉 **[SecureKit-project](https://secure-auth-wrdy.onrender.com)** in your browser.
 
 ---
 
