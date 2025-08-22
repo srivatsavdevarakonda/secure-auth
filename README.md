@@ -93,7 +93,7 @@ secure-auth-project/
 python server.py
 ```
 
-Navigate to 👉 **[http://127.0.0.1:5001/](https://secure-auth-wrdy.onrender.com)** in your browser.
+Navigate to 👉 **[secure-auth-project](https://secure-auth-wrdy.onrender.com)** in your browser.
 
 ---
 
